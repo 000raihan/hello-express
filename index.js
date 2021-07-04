@@ -1,15 +1,13 @@
 const express = require('express');
 
+////Day One
 
-
-const shortid = require('shortid');
 const app = express();
 app.use(express.json());
 app.use('/todos', require('./routes'));
 
 
 
-let todoArray = [];
 
 
 
